@@ -2,10 +2,9 @@ import { useState } from "react";
 import { BrowserRouter, Routes, Route, useNavigate } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import HomePage from "./pages/HomePage";
-import ChaptersList from "./pages/ChaptersList";
 import ChapterView from "./pages/ChapterView";
 import { chaptersData } from "./data/chapters";
-import ChaptersPage from "./components/chaptersPage";
+import ChaptersPage from "./components/ChaptersPage";
 
 function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
